@@ -1,0 +1,54 @@
+Id,Nome,Biblioteca de formas,ID da p´ágina,Contido por,Grupo,Origem da linha,Destino da linha,Seta de origem,Seta de destino,Status,Área de texto 1,Área de texto 2,Área de texto 3,Comentários
+1,Documento,,,,,,,,,Concluído,Diagrama UML iPhone,,,
+2,Página,,,,,,,,,,Página 1,,,
+3,Classe,UML,2,,,,,,,,"<<interface>>
+ReprodutorMusical","​+ tocar(); void
++ pausar(); void
++ selecionarMusica(); void",,
+4,Classe,UML,2,,,,,,,,"<<interface>>
+AparelhoTelefonico","​+ ligar(); void
++ atender(); void
++ iniciarCorreioVoz(); void",,
+5,Classe,UML,2,,,,,,,,"<<interface>>
+NavegadorInternet","​+ exibirPagina(); void
++ adicionarNovaAba(); void
++ atualizarPagina(); void",,
+6,Classe,UML,2,,,,,,,,iPhone,"​- modelo: String
+- cor: String","​+ tocar()
++ pausar()
++ selecionarMusica
++ ligar()
++ atender()
++ iniciarCorreioVoz()
++ exibirPagina()
++ adicionarNovaAba()
++ atualizarPagina",
+7,Linha,,2,,,3,6,None,Generalization,,,,,
+8,Linha,,2,,,5,6,None,Generalization,,,,,
+9,Linha,,2,,,4,6,None,Generalization,,,,,
+10,Página,,,,,,,,,,Página 1,,,
+11,Classe,UML,10,,,,,,,,"<<interface>>
+ReprodutorMusical","​+ tocar(); void
++ pausar(); void
++ selecionarMusica(); void",,
+12,Classe,UML,10,,,,,,,,"<<interface>>
+AparelhoTelefonico","​+ ligar(); void
++ atender(); void
++ iniciarCorreioVoz(); void",,
+13,Classe,UML,10,,,,,,,,"<<interface>>
+NavegadorInternet","​+ exibirPagina(); void
++ adicionarNovaAba(); void
++ atualizarPagina(); void",,
+14,Classe,UML,10,,,,,,,,iPhone,"​- modelo: String
+- cor: String","​+ tocar()
++ pausar()
++ selecionarMusica
++ ligar()
++ atender()
++ iniciarCorreioVoz()
++ exibirPagina()
++ adicionarNovaAba()
++ atualizarPagina",
+15,Linha,,10,,,12,14,None,Generalization,,,,,
+16,Linha,,10,,,13,14,None,Generalization,,,,,
+17,Linha,,10,,,11,14,None,Generalization,,,,,
